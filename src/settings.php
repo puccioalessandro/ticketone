@@ -15,5 +15,13 @@ return [
             'path' => isset($_ENV['docker']) ? 'php://stdout' : __DIR__ . '/../logs/app.log',
             'level' => \Monolog\Logger::DEBUG,
         ],
+
+        'db' => [
+            'host' => 'tcp://0.tcp.ngrok.io:16761',
+            'dbname' => 'Ticketone',
+            'port' => '3306',
+            'user' => 'andrea',
+            'pass' => 'slacky91',
+        ]
     ],
 ];
