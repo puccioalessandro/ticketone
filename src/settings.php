@@ -17,11 +17,11 @@ return [
         ],
 
         'db' => [
-            'host' => 'tcp://0.tcp.ngrok.io:16761',
+            'host' => 'tcp://0.tcp.ngrok.io:10280',
             'dbname' => 'Ticketone',
             'port' => '3306',
             'user' => 'andrea',
             'pass' => 'slacky91',
-        ]
+        ],
     ],
 ];
